@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-hi
-hey 
-=======
 # AI Adoption and DRG Families Across U.S. Hospitals 
 
 Ella Etchandy, Jessica Pham, Ella Fortenbery
@@ -22,4 +18,3 @@ To update the coloring in the geojson map after changing AI classifications, run
 
 ## LLM Usage
 I used Codex to access and concatenate hospital data from multiple years into a single CSV file, only keeping hospitals whose zipcode maps to a significant AI usage cluster.
->>>>>>> d847830bed2eff436c731c0b1ccd7bf1d01a3088
