@@ -14,6 +14,7 @@ To update the coloring in the geojson map after changing AI classifications, run
 ## Data
 - Load relevant hospitals from CMS: https://data.cms.gov/provider-summary-by-type-of-service/medicare-inpatient-hospitals/medicare-inpatient-hospitals-by-provider-and-service
 - Run cells in get_data.ipynb to fetch and process hospital data, saved into hospital_data.csv.
+- The same notebook also fetches the hospital-level "Medicare Inpatient Hospitals - by Provider" table (length of stay, HCC risk score, demographics, chronic conditions) for the same hospitals, saved into hospital_provider_data.csv: https://data.cms.gov/provider-summary-by-type-of-service/medicare-inpatient-hospitals/medicare-inpatient-hospitals-by-provider
 - model.ipynb is setup to load data.
 
 ## LLM Usage
